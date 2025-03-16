@@ -1,0 +1,21 @@
+{
+  "configurations": [
+      {
+          "name": "Linux",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/home/acf15649kv/modules/cuda/cuda-12.8.0//include",
+              "/home/acf15649kv/modules/cudnn/cudnn-linux-x86_64-9.7.0.66_cuda12-archive/include",
+              "/home/acf15649kv/src/pytorch/torch/csrc/api/include",
+              "/home/acf15649kv/src/googletest/googletest/include",
+              "/home/acf15649kv/src/cutlass/include"
+          ],
+          "defines": [],
+          "compilerPath": "/home/acf15649kv/modules/cuda/cuda-12.8.0/bin/nvcc",
+          "cStandard": "c17",
+          "intelliSenseMode": "linux-gcc-x64",
+          "cppStandard": "gnu++20"
+      }
+  ],
+  "version": 4
+}

@@ -23,6 +23,7 @@ source .env/bin/activate
 pip install --upgrade pip
 pip install --upgrade wheel cmake ninja packaging
 pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu124
+pip install numpy
 
 # DeepGEMM
 git submodule update --init --recursive
